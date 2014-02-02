@@ -5,7 +5,11 @@ describe 'Takeaway' do
 	let(:takeaway) { Takeaway.new}
 
 	context 'checks if the dish is available' do
-		
+
+		it 'displays the menu' do
+			expect(takeaway.menu).to eq(takeaway.menu)
+		end
+
 		it 'returns error if the dish is not in the menu' do
 			expect{takeaway.check_dishes(['Pizza','Roti'])}.to raise_error("Pizza not available")
 		end

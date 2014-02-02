@@ -52,6 +52,10 @@ class Takeaway
 			:from => "+44 1986232021")
 	end
 
+	def menu
+		puts @menu
+	end
+
 end
 
 
