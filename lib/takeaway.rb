@@ -7,13 +7,14 @@ class Takeaway
 	AUTH_TOKEN = 'aaee7e72289dcf123bbfe3ff593d66d7'
 
 	def initialize
-		@menu = [
-						{:dish => "Tofu_steak", :price => 4},
-						{:dish => "Edamame", :price => 3},
-						{:dish => "Soft_cell_crab", :price => 8},
-						{:dish => "Harumaki", :price => 5},
-						{:dish => "Ebi_tempura", :price => 7}
-						]
+		@menu = 
+		[
+			{:dish => "Tofu_steak", :price => 4},
+			{:dish => "Edamame", :price => 3},
+			{:dish => "Soft_cell_crab", :price => 8},
+			{:dish => "Harumaki", :price => 5},
+			{:dish => "Ebi_tempura", :price => 7}
+		]
 	end
 
 
